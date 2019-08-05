@@ -4,7 +4,7 @@
   "description": "my portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Sh",
   "license": "MIT",
