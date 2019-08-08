@@ -34,7 +34,10 @@ body {
 
 .container li a {
   text-decoration: none;
-  color: $secondary_color;
+  color: black;
+  font-size: 18px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
 }
 
 .login-box::after {
@@ -54,7 +57,7 @@ body {
   position: absolute;
   width: 280px;
   padding: 50px;
-  top: 25%;
+  top: 20%;
   left: 10%;
   // border: 2px solid black;
   // border-radius: 5px;
@@ -83,6 +86,11 @@ body {
   border-bottom: 2px solid black;
 }
 
+.input-text:hover {
+  transition: 0.5s;
+  padding: 15px;
+}
+
 .input-text input {
   border: none;
   background: none;
@@ -107,8 +115,14 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  background: black;
+  color: gray;
+}
+
 .other-link {
   display: flex;
+  padding: 5px;
   text-decoration: none;
-  color: $secondary_color;
+  color: black;
 }
